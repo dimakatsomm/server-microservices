@@ -1,0 +1,32 @@
+{
+  "name": "timestamp-microservice",
+  "version": "1.0.0",
+  "description": "Timestamp Microservice ",
+  "main": "servcer.js",
+  "scripts": {
+    "serve": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dimakatsomm/timestamp-microservice.git"
+  },
+  "keywords": [
+    "timestamp",
+    "node",
+    "microservice",
+    "project"
+  ],
+  "author": "Dimakatso Makgatho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dimakatsomm/timestamp-microservice/issues"
+  },
+  "homepage": "https://github.com/dimakatsomm/timestamp-microservice#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0"
+  }
+}
