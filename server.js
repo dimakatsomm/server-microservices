@@ -47,7 +47,7 @@ const setTimestamp = (dateTime, local) => {
 //    res.status(422).send({ error : "Invalid Date" });
 //})
 //
-app.get('/whoami', (req, res) => {
+app.get('/api/whoami', (req, res) => {
   res.json({"ipaddress": req.ip, "language": req.headers['accept-language'], "software": req.headers['user-agent']})
 })
 
